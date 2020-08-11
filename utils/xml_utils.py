@@ -21,4 +21,4 @@ def rss_to_xml(rss_url):
     parser = etree.XMLParser(remove_blank_text=True)
     tree = etree.parse(fdata, parser)
 
-    return etree.tostring(tree)
+    return tree

@@ -33,10 +33,21 @@ def test_rss_to_xml():
     test_vngrd_tree = etree.parse(vngrd_test_xml, parser)
     test_antifada_tree = etree.parse(antifada_test_xml, parser)
 
-    assert(tbs_tree == test_tbs_tree)
-    assert(vngrd_tree == test_vngrd_tree)
-    assert(antifada_tree == test_antifada_tree)
+    # compare their string representations
+    tbs_xml_string  = etree.tostring(tbs_tree)
+    vngrd_xml_string = etree.tostring(vngrd_tree)
+    antifada_xml_string = etree.tostring(antifada_tree)
+
+    test_tbs_xml_string = etree.tostring(test_tbs_tree)
+    test_vngrd_xml_string = etree.tostring(test_vngrd_tree)
+    test_antifada_xml_string = etree.tostring(test_antifada_tree)
+
+    assert(tbs_xml_string == test_tbs_xml_string)
+    assert(vngrd_xml_string == test_vngrd_xml_string)
+    assert(antifada_xml_string == test_antifada_xml_string)
 
     tbs_test_xml.close() 
     vngrd_test_xml.close()
     antifada_test_xml.close()
+
+    print("Test passed")
