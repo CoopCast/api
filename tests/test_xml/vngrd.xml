@@ -1,0 +1,75 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:780914110/sounds.rss" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:780914110/sounds.rss?before=760624939" rel="next" type="application/rss+xml"/>
+    <title>The VNGRD Podcast</title>
+    <link>https://soundcloud.com/vngrdcoop</link>
+    <pubDate>Thu, 12 Mar 2020 17:09:56 +0000</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2020 17:09:56 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <language>en</language>
+    <copyright>All rights reserved</copyright>
+    <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+    <description>VNGRD is building a platform cooperative for podcasters. This podcast will cover updates on VNGRD's progress, interviews with podcast hosts, and interviews with people associated with the platform cooperative movement.
+
+Support us at patreon.com/vngrd</description>
+    <itunes:subtitle>VNGRD is building a platform cooperative for podc&#8230;</itunes:subtitle>
+    <itunes:owner>
+      <itunes:name>The VNGRD Podcast</itunes:name>
+      <itunes:email>vngrdcoop@hotmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>The VNGRD Podcast</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://i1.sndcdn.com/avatars-gVK7yorPmxmCZdE3-Bz9ylQ-original.jpg"/>
+    <image>
+      <url>https://i1.sndcdn.com/avatars-gVK7yorPmxmCZdE3-Bz9ylQ-original.jpg</url>
+      <title>The VNGRD Podcast</title>
+      <link>https://soundcloud.com/vngrdcoop</link>
+    </image>
+    <itunes:category text="Business"/>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/775035859</guid>
+      <title>Episode 2 - Guest: Jeremy Muhia</title>
+      <pubDate>Thu, 12 Mar 2020 17:09:56 +0000</pubDate>
+      <link>https://soundcloud.com/vngrdcoop/episode-2-guest-jeremy-muhia</link>
+      <itunes:duration>00:46:13</itunes:duration>
+      <itunes:author>The VNGRD Podcast</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>vngrd.online is live! (kind of) I monologue about supporting projects to restore power to the people. And Jeremy Muhia talks with me about his story, politics, software development, and speculation about the future.
+
+Support this podcast at: https://www.patreon.com/vngrd</itunes:summary>
+      <itunes:subtitle>vngrd.online is live! (kind of) I monologue about&#8230;</itunes:subtitle>
+      <description>vngrd.online is live! (kind of) I monologue about supporting projects to restore power to the people. And Jeremy Muhia talks with me about his story, politics, software development, and speculation about the future.
+
+Support this podcast at: https://www.patreon.com/vngrd</description>
+      <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/775035859-vngrdcoop-episode-2-guest-jeremy-muhia.mp3" length="29737065"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-PJ1KmEuEZVW1kQMk-pW2zBg-t3000x3000.jpg"/>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/760624939</guid>
+      <title>The Introduction</title>
+      <pubDate>Fri, 14 Feb 2020 15:57:40 +0000</pubDate>
+      <link>https://soundcloud.com/vngrdcoop/the-introduction</link>
+      <itunes:duration>00:10:59</itunes:duration>
+      <itunes:author>The VNGRD Podcast</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>We go over the need for platform cooperativism, VNGRD, and podcast logistics.
+
+Platform Cooperativism: Challenging the Corporate Sharing Economy: http://www.rosalux-nyc.org/wp-content/files_mf/scholz_platformcoop_5.9.2016.pdf
+VNGRD: Cooperative Media for the Left: https://medium.com/@samp805/vngrd-cooperative-media-for-the-left-7499920455ea
+
+Support us at patreon.com/vngrd
+Checkout our (temporary) website: vanguardians.gitlab.io</itunes:summary>
+      <itunes:subtitle>We go over the need for platform cooperativism, V&#8230;</itunes:subtitle>
+      <description>We go over the need for platform cooperativism, VNGRD, and podcast logistics.
+
+Platform Cooperativism: Challenging the Corporate Sharing Economy: http://www.rosalux-nyc.org/wp-content/files_mf/scholz_platformcoop_5.9.2016.pdf
+VNGRD: Cooperative Media for the Left: https://medium.com/@samp805/vngrd-cooperative-media-for-the-left-7499920455ea
+
+Support us at patreon.com/vngrd
+Checkout our (temporary) website: vanguardians.gitlab.io</description>
+      <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/760624939-vngrdcoop-the-introduction.mp3" length="11263662"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-9fIvy2fZ6KzNRz5b-yE9FwA-t3000x3000.jpg"/>
+    </item>
+  </channel>
+</rss>
