@@ -5,7 +5,7 @@ import os
 TEST_XML_DIR = os.path.join(os.environ['API_DIR'], 'tests', 'test_xml')
 
 
-def test_rss_to_xml():
+def test_rss_to_etree():
     # Soundcloud RSS
     tbs_rss = 'https://theblockchainsocialist.com/feed/'
 
@@ -18,10 +18,10 @@ def test_rss_to_xml():
     # Add other RSS tests as you come across them to be thorough
     # I think 3 are fine for now
 
-    # test rss_to_xml functions
-    tbs_tree = rss_to_xml(tbs_rss)
-    vngrd_tree = rss_to_xml(vngrd_rss)
-    antifada_tree = rss_to_xml(antifada_rss)
+    # test rss_to_etree functions
+    tbs_tree = rss_to_etree(tbs_rss)
+    vngrd_tree = rss_to_etree(vngrd_rss)
+    antifada_tree = rss_to_etree(antifada_rss)
 
     tbs_test_xml = open(os.path.join(TEST_XML_DIR, 'tbs.xml'))
     vngrd_test_xml = open(os.path.join(TEST_XML_DIR, 'vngrd.xml'))

@@ -3,7 +3,7 @@ import io
 from lxml import etree
 
 
-def rss_to_xml(rss_url):
+def rss_to_etree(rss_url):
     '''Downloads RSS file and returns xml ElementTree'''
 
     resp = urllib.request.urlopen(rss_url)
